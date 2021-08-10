@@ -1,0 +1,349 @@
+/*Common CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bn_font{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.en_font{
+    font-family: 'Poppins', sans-serif;
+}
+body{}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+/*Header CSS*/
+.head{
+    background-color: #6227ec;
+}
+header{
+    display: flex;
+}
+.header_left{
+    width: 30%;
+    margin-top: 25px;
+}
+.header_left p{
+
+    color: #fff;
+    font-size: 26px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.header_right{
+    width: 70%;
+    margin-top: 25px;
+}
+.header_right ul{
+    list-style: none;
+    margin-left: 380px;
+    margin-top: 10px;
+}
+.header_right ul li{
+    display: inline-block;
+}
+.header_right ul li a{
+    text-decoration: none;
+    margin: 10px 10px 10px 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+.header_right ul li #login_btn{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.header_right ul li #login_btn:hover{
+    color: #6227ec;
+    font-weight: 400;
+    background-color:#fff;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.header_right ul li #register_btn{
+    background-color: #FF3182;
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/*Body CSS*/
+.course{
+    display: flex;
+    margin-top: 50px;
+}
+.course_detail{
+    width: 55%;
+    margin-top: 125px;
+}
+.course_detail h1{
+    color: #fff;
+    font-weight: 800;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.course_detail p{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.course_detail a{
+    /* font-family: 'Poppins', sans-serif; */
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #FF3182;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.course_detail a i{
+    font-size: 20px;
+}
+.course_image{
+    width: 45%;
+}
+.course_image img {
+    width: 570px;
+    margin-top: 30px;
+}
+/*Next Batch Schedule*/
+.next_batch{
+    position: relative;
+    top: -80px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px -30px #000;
+    max-width: 1035px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.next_batch h1{
+    /* font-family: 'Hind Siliguri', sans-serif; */
+    text-align: center;
+    margin-bottom: 70px;
+}
+.dates{
+    width: 100%;
+    display: flex;
+}
+.reg_date{
+    width: 50%;
+}
+.reg_date .i1{
+    font-size: 12px;
+    color: #fff;
+    background-color: #6024eb;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.reg_date .i2{
+    font-size: 12px;
+    color: #fff;
+    background-color: #f97b61;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.class_date .i1{
+    font-size: 12px;
+    color: #fff;
+    background-color: #ffb229;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.class_date .i2{
+    font-size: 12px;
+    color: #fff;
+    background-color: #ff2571;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.reg_date p{
+    margin-top: 15px;
+    /* font-family: 'Hind Siliguri', sans-serif; */
+    font-size: 18px;
+    font-weight: 700;
+}
+.class_date{
+    width: 50%;
+}
+.class_date p{
+    /* font-family: 'Hind Siliguri', sans-serif; */
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.enroll{
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+.enroll p{
+    font-size: 18px;
+    margin-top: 45px;
+    position: relative;
+    color: #fff;
+    border-radius: 30px;
+    /* font-family: 'Hind Siliguri', sans-serif; */
+    font-weight: 600;
+    background-color: #6227ec;
+    padding: 15px 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.enroll a {
+    font-size: 14px;
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    text-decoration: none;
+    /* font-family: 'Poppins', sans-serif; */
+    color: #fff;
+    background-color: #FF3182;
+    padding: 15px 20px;
+    border-radius: 31px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/*learning_outcomes*/
+.learnings_title{
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+.learnings_title h1{
+    /* font-family: 'Hind Siliguri', sans-serif; */
+    margin-bottom: 20px;
+}
+.learnings_detail{
+    display: flex;
+    margin-bottom: 100px;
+}
+.learnings1{
+    width: 50%;
+    height: 150px;
+    margin-right: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -15px #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.learnings1 h1{
+    text-decoration: line-through;
+    display: inline-block;
+    color: #ff6347;
+}
+.learnings1 span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.price {
+    word-spacing: 15px;
+    margin: 15px 0px;
+}
+.learnings2{
+    font-size: 15px;
+    font-weight: 600;
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+    box-shadow: 0px 0px 20px -15px #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.learnings2 ul{
+    list-style-type: none;
+}
+.learnings2 ul li{
+    margin-top: 20px;
+}
+.learnings2 ul li:nth-child(1){
+    margin-top: 0px;
+}
+.learnings2 ul li i{
+    font-size: 12px;
+    color: #fff;
+    background-color: #ff6347;
+    padding: 3px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.enroll_btn a{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 205px;
+    background-color: #FF3182;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+footer{
+    background-color: #6227EC;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+footer .social{
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+
